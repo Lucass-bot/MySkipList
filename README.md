@@ -75,8 +75,8 @@ make            // complie demo main.cpp
 sh stress_test_start.sh 
 ```
 
-# 待优化 
-
+# 优化 
+* 跳表可以包含同样键值的元素
 * delete的时候没有释放内存
 * 压力测试并不是全自动的
 * 跳表的key用int型，如果使用其他类型需要自定义比较函数，当然把这块抽象出来更好
